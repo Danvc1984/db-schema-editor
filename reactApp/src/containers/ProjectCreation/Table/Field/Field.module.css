@@ -1,0 +1,41 @@
+.Field {
+  border: 2px solid #9c8d01;
+  margin: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+.Field section {
+  flex-flow: row;
+  justify-content: space-between;
+  width: 93%;
+}
+.required {
+  background-color: #070064c7;
+  color: #fdf8f2;
+  font-weight: bold;
+  padding: 2px;
+  margin: 2px;
+}
+
+.desc {
+  align-self: flex-start;
+  padding: 2px;
+  margin: 2px;
+  color: #000000;
+}
+.type {
+  margin: 2px;
+  align-self: flex-end;
+  padding: 2px;
+  color: #441b00;
+}
+.Field:hover {
+  border: 2px solid #ee0000;
+}
+.Field button {
+  display: none;
+}
+
+.Field:hover button {
+  display: inline-flex;
+}

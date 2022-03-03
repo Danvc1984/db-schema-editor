@@ -1,0 +1,60 @@
+.Input {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.Label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 8px;
+}
+
+.InputElement {
+  outline: none;
+  border: 0.15em solid rgb(161, 4, 209);
+  background-color: #f0f0f0;
+  font: inherit;
+  padding: 6px 10px;
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  overflow: auto;
+}
+
+.InputElement:focus {
+  outline: none;
+  background-color: rgb(255, 255, 255);
+}
+
+.Invalid {
+  border: 0.15em solid rgb(255, 102, 0);
+  background-color: #f8bb49;
+}
+.ValidationError {
+  color: rgb(175, 0, 0);
+  margin: 5px;
+  margin-bottom: 3px;
+  height: 10px;
+  font-size: 0.8em;
+}
+.horizontal option {
+  display: inline-block;
+}
+
+.horizontal option:hover {
+  color: #fffefe;
+  background: linear-gradient(#cd8cf8, #8213dd);
+  background-color: #cd8cf8 !important; /* for IE */
+}
+
+.horizontal option:focus,
+.horizontal option:active,
+.horizontal option:checked {
+  background: linear-gradient(#9752cf, #9752cf);
+  background-color: #9752cf !important; /* for IE */
+}
+
+textarea {
+  resize: none;
+}

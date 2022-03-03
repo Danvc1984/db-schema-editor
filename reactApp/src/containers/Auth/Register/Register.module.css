@@ -1,0 +1,47 @@
+.Register form {
+  display: grid;
+  position: relative;
+  max-width: 360px;
+  border-radius: 10px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #f8bb49;
+  background-color: #f0f0f0;
+  margin: 75px auto;
+  margin-bottom: 90px;
+  padding: 20px;
+}
+
+.Register a {
+  font-size: 1.2em;
+  padding: 0.2em;
+  color: #ff00c7;
+  text-align: center;
+}
+.Register h1 {
+  font-size: 2em;
+  text-align: center;
+  color: #5e0980;
+  margin: 0;
+}
+
+.Register h4 {
+  font-size: 0.8em;
+  text-align: center;
+  color: #058805;
+  margin: 0;
+  padding: 0.1em;
+}
+
+.Register span {
+  text-align: center;
+  padding-top: 0.8em;
+  color: #620000;
+  font-weight: bold;
+}
+
+/* Not in use
+.Register img {
+    width: 100%;
+    border-radius: 0.2em;
+  } */

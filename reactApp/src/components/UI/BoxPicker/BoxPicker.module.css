@@ -1,0 +1,35 @@
+.boxpicker ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  font: 1.5rem;
+  list-style: none;
+  padding: 0;
+}
+
+.boxpicker input {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+}
+
+.boxpicker label {
+  display: inline-block;
+  padding: 0.3em 0.75em;
+  background: #097249;
+  border: 0.15em solid #552b62;
+  color: #e9e9e9;
+  cursor: pointer;
+  transition: all 0.5s 0s;
+}
+
+.boxpicker :checked + label {
+  background: #628a35;
+  color: #fff;
+  cursor: default;
+}
+
+.boxpicker p {
+  text-align: center;
+}

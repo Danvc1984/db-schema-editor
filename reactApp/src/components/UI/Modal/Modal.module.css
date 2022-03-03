@@ -1,0 +1,44 @@
+.Modal {
+  color: #775dce;
+  position: fixed;
+  padding: 10px;
+  z-index: 500;
+  background-color: #1d0a1c;
+  border-radius: 12px;
+  box-shadow: 3px 3px 3px 3px #5f024c7e;
+  top: 10%;
+  height: 55%;
+  width: 600px;
+  left: calc(50% - 300px);
+  box-sizing: border-box;
+  transition: all 0.5s ease-out;
+}
+.child {
+  height: 90%;
+  overflow: auto;
+}
+
+section {
+  margin-bottom: 8px;
+  display: flex;
+  justify-content: space-between;
+}
+.modalTitle {
+  padding-top: 5px;
+  font-size: 20px;
+  font-weight: 900;
+}
+.closeButton {
+  padding-left: 2px;
+  padding-right: 2px;
+  border-width: 3px;
+  border-style: solid;
+  border-color: #5f024c7e;
+  font-size: 25px;
+  color: #5f024c7e;
+  background-color: #31312f;
+}
+.closeButton:hover {
+  cursor: pointer;
+  color: inherit;
+}

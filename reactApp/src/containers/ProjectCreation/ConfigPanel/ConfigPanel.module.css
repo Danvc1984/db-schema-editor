@@ -1,0 +1,25 @@
+.Config {
+  margin: 1em;
+  color: #e7cbffe7;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+}
+
+.Config label {
+  margin: 1em 0.1em;
+  font-weight: bold;
+  text-align: center;
+}
+
+.Config input {
+  margin: 1em 0.1em;
+}
+
+.checkbox {
+  margin: 1em 0.1em;
+  padding-left: 20%;
+  border-radius: 3%;
+  color: #d8acff;
+  background-color: #296951;
+}

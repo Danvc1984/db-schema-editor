@@ -1,0 +1,47 @@
+.About {
+  z-index: 500;
+  position: fixed;
+  color: #d9dad9;
+  background-color: rebeccapurple;
+  border: 1px solid #ccc;
+  padding: 0px 0px 16px 0px;
+  top: 25%;
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+}
+
+@media (min-width: 600px) {
+  .About {
+      width: 500px;
+      left: calc(50% - 250px);
+  }
+}
+.About img {
+  float: right;
+  height: 26px;
+  width: 26px;
+}
+.About img:hover {
+  filter: invert(70%) sepia(63%) saturate(5265%) hue-rotate(105deg) brightness(104%) contrast(92%);
+}
+
+.About h2 {
+  margin: 2px;
+  display: block;
+  text-align: center;
+}
+
+.About p{
+  display: block;
+  padding: 0px 16px 0px 16px;
+}
+
+.About div {
+  background-color: #616161;
+  padding: 10px;
+  /* -1px here for to compansate for the outer border of the container */
+  -moz-border-radius: 10px 10px 0px 0px;
+  border-radius: 10px 10px 0px 0px;
+  -webkit-border-radius: 10px 10px 0px 0px;
+}

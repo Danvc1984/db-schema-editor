@@ -1,0 +1,25 @@
+.Footer {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  left: 0;
+  bottom: 0;
+  font-family: "Lustria", serif;
+  width: 100%;
+  padding-bottom: 10px;
+  background-color: #4b1e66;
+}
+.Footer div {
+  color: #8e40bd;
+  text-align: center;
+  display: grid;
+  width: 33%;
+}
+.Footer h2 {
+  color: #0ace59;
+  font-weight: 200;
+  margin-bottom: 5px;
+}
+.Footer p {
+  margin: 0;
+}

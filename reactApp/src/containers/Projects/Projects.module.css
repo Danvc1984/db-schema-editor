@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+}
+.projects {
+  max-width: 900px;
+  margin: 80px auto;
+}
+.head {
+  text-align: center;
+  font-size: 40px;
+  background-color: #3cad46;
+}
+.container {
+  max-height: 56vh;
+  overflow: auto;
+}
+
+.anew {
+  display: flex;
+  width: fit-content;
+  margin: 10px 0;
+  padding: 1.2em 0.4em;
+  font-weight: bold;
+  text-decoration: none;
+  background-color: #221025;
+  color: #4edb59;
+  border-radius: 5px;
+}
+.info {
+  padding: 6px 28px;
+  font-size: 0.95em;
+  text-align: right;
+  display: block;
+  color: rgb(199, 199, 202);
+  background-color: #0b040cc0;
+}

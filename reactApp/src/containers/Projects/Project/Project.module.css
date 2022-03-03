@@ -1,0 +1,23 @@
+.project {
+  background-color: #ffdcf471;
+  margin: 6px 0;
+  padding: 2px;
+  display: flex;
+  justify-content: space-between;
+  border-left: solid 6px #34163a;
+}
+
+span {
+  padding-left: 3px;
+  padding-top: 7px;
+}
+.project button {
+  display: none;
+}
+.buttons span {
+  color: #fff7f700;
+}
+
+.project:hover button {
+  display: inline-flex;
+}
